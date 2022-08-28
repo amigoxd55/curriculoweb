@@ -15,12 +15,12 @@
       
       
       header{
-       background-color: chocolate;
-       background-image: url(./img/fundos-azul-11550715545cqhp4gsato.png);
+       background-color: rgb(89, 56, 133);
+       background-image: url(./img/workspace-1280538_1280.jpg);
        background-position: center;
        background-size: cover; 
-       color:rgb(223, 221, 221);
-       padding: 50px;
+       color:#a8dac9;
+       padding: 70px;
        text-align: center;
        
        }
@@ -35,100 +35,115 @@
       
       
        
-  header div{
-        display: inline-block
-        
+        header div{
+        display: inline-block;
+       
+         
       }
       
        header>div img{
-        width: 40%;}
+        width: 50%;
+      }
+      
+         #empresa{
+         background-image: url(./img/circle-5090539_1280.jpg);
+         color: antiquewhite;
+         padding: 50px;
+        }
+      
+      
+        
         
       
-  section {
-    background-color: rgb(29, 151, 151);
-    background-image: url(./img/abstrato-tons-de-azul-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho-5.jpg);
-    text-align: center;
-    color: beige;
-    padding: 30px;
+  
     
     
-  }
-   footer{
-    background-image: url(./img/fundo-da-tecnologia-do-internet-do-computador-13369419.jpg);
-    color: rgb(13, 15, 15);
+       footer{
+    
+    background-image: url(./img/workspace-1280538_1280.jpg);
+    color: rgb(183, 216, 216);
     padding: 100px;
    text-align: center;
+   background-position: center;
+  }
+  
+
+  #logo{
+    width: 30%;
+    float: left;
+
+  }
+   #logo img{
+   border-radius: 50%;
+}
+  body{
+    font-family: 'Courier New', Courier, monospace;
   }
 
-
-
+  nav{
+    background-color: rgb(214, 174, 121);
+  }
+   
+  nav a{
+  display: inline-block;
+    padding: 40px  20px;
+    color: rgb(26, 25, 24);
   
-    
-        
+  }
+
+  #tecnologia{
+    background-image: url(./img/circle-5090539_1280.jpg);
+    color: antiquewhite;
+    padding: 50px;
+  }
+ 
+  nav a:hover{
+    background-color:rgb(182, 150, 150);
+    color: black;
+
+  }
+       
     </style>        
-
-  
-      
-  
- </head>
+    </head>
       
        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 <body>
 <header>
-      <div>
+      <div id="logo">
 
         <img src="https://avatars.githubusercontent.com/u/111023160?v=4" alt="foto perfil" > 
       </div>
-   <h2>Fernando Dias</h2>
-    <p>Rio de Janeiro, Brasil</p>
-    <p>Programador Web</p>
-    <p>Html / Css / Javascript / Pythom</p>
-    <img src="img/icons8-facebook-novo-150.png" alt="para poder acessar o site 
-    automaticamnete passando o mause em cima" height="50">
-    <img src="img/icons8-instagram-128.png" alt="para poder acessar o site 
-    automaticamente quando passar o mause em cima" height="50">
-    <img src="img/icons8-twitter-128.png" alt="para poder acessar o site
-     automaticamente quando passar o mause em cima" height="50">
-</header>
+        
+      <div>
+        <h2>Fernando Dias</h2>
+        
+        <p>Rio de Janeiro, Brasil</p>
+        <p>Programador Web</p>
+  
+      </div>
+        <p>Html / Css / Javascript / Pythom</p>
+        <img src="img/icons8-facebook-novo-150.png" alt="para poder acessar o site 
+        automaticamnete passando o mause em cima" height="50">
+        <img src="img/icons8-instagram-128.png" alt="para poder acessar o site 
+        automaticamente quando passar o mause em cima" height="50">
+        <img src="img/icons8-twitter-128.png" alt="para poder acessar o site
+        automaticamente quando passar o mause em cima" height="50">
+      </header>
    
 <nav>
-
+  <a href="index.html">inicial</a>
+  <a href="#empresa">empresa</a>
+  <a href="#tecnologia" >Tecnologia</a>
 
 </nav>
   
- 
-
-<section>
-  <p>inicial</p>
-  <P>empresa</P>
-  <p>Tecnologia</p>
-  </section>
-  
-
-
-
-
-  <section>
+ <section id="empresa">
   
       <h1>Empresas</h1>
       <p> Trabalho tambem de freelancer em algumas empresas como (Samsumg, Google, Facebook)</p>
     </section>
     
-  <section>
+  <section id="tecnologia">
     <h1>Tecnologia</h1>
     <P>Tenho conhecimento em HTML  CSS  Javascript Pythom</P>
 
